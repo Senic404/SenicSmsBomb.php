@@ -1,4 +1,3 @@
-os.system("clear")
 import requests
 from uuid import uuid4
 uid = str(uuid4())
